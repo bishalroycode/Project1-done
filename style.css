@@ -578,8 +578,6 @@ video {
 }
 
 .masking{
-  -webkit-mask-image: url('../dist/images/hero-blob-1.svg');
-          mask-image: url('../dist/images/hero-blob-1.svg');
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -993,24 +991,9 @@ video {
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
 }
 
-.border-slate-800{
-  --tw-border-opacity: 1;
-  border-color: rgb(30 41 59 / var(--tw-border-opacity));
-}
-
 .border-slate-950{
   --tw-border-opacity: 1;
   border-color: rgb(2 6 23 / var(--tw-border-opacity));
-}
-
-.border-yellow-300{
-  --tw-border-opacity: 1;
-  border-color: rgb(253 224 71 / var(--tw-border-opacity));
-}
-
-.border-black{
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-\[\#283687\]{
@@ -1220,20 +1203,12 @@ video {
   padding-top: 6rem;
 }
 
-.pt-4{
-  padding-top: 1rem;
-}
-
 .pt-28{
   padding-top: 7rem;
 }
 
-.pt-36{
-  padding-top: 9rem;
-}
-
-.pt-32{
-  padding-top: 8rem;
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-center{
@@ -1707,10 +1682,6 @@ video {
 
   .md\:w-\[40\%\]{
     width: 40%;
-  }
-
-  .md\:w-\[42\%\]{
-    width: 42%;
   }
 
   .md\:w-\[45\%\]{
